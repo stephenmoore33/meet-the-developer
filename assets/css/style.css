@@ -1,3 +1,104 @@
-h1, h2, h3, h4, h5, h6 {
-    font-size: 100%;
+/* color scheme */
+:root {
+    --main-menu: #C9CBC9;
+    --main-menu-color: #354231;
+    --main-body-color: #2C3729 ;
+    --menu-link-hover: #242C21;
+    --index-background: #E6E8E6;
+    --footer-menu-background: #AEAFAE;
   }
+
+h1, h2, h3, h4, h5, h6, body {
+    font-size: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: var(--main-body-color);
+}
+
+  body {
+      background-color: var(--index-background);
+  }
+
+/* Header with navigation links */
+.headermain {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        background-color: var(--main-menu);
+        color: var(--main-menu-color);
+        font-size: larger;
+}
+
+/* Header size */
+.headertext {
+    font-size: larger;
+}
+/* Header actions on hover */
+.headertext:hover {
+    color: var(--menu-link-hover);
+}
+
+/* Navigation links in header */
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+}
+
+/* Navigation text */
+nav a {
+    color: var(--main-menu-color);
+    font-weight: bold;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 20px;
+}
+
+/* Navigation color on hover */
+nav a:hover {
+    color: var(--menu-link-hover);
+    border-top: var(--menu-link-hover);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* About section */
+.aboutBox {
+        /* CSS */
+}        
+
+h2 {
+    margin: 2% 0;
+    font-size: 250%;
+}
+
+/* footer */
+footer {
+
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+    bottom: 0px;
+    position: fixed;
+    background: var(--footer-menu-background);
+    z-index: 12;
+    font-size: small;
+    color: var(--main-menu-color);
+    padding: 15px;
+}
+
+
+.copyright {
+    float: right;
+    display: flex; 
+} 
+
+.footer-items {
+    float: left;
+    display: flex; 
+    padding: -15px;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
