@@ -1,11 +1,11 @@
 /* color scheme */
 :root {
-    --main-menu: #C9CBC9;
-    --main-menu-color: #354231;
-    --main-body-color: #2C3729 ;
-    --menu-link-hover: #242C21;
-    --index-background: #E6E8E6;
-    --footer-menu-background: #AEAFAE;
+    --main-menu: #89D2DC;
+    --main-menu-color: #101D42;
+    --main-body-color: #101D42 ;
+    --menu-link-hover: #888EA1;
+    --index-background: #F0F9FB;
+    --footer-menu-background: #B5E3E9;
   }
 
 h1, h2, h3, h4, h5, h6, body {
@@ -64,13 +64,28 @@ nav a:hover {
 
 /* About section */
 .aboutBox {
-        /* CSS */
+    margin: 2% 2%;
 }        
 
-h2 {
-    margin: 2% 0;
+.devHead {
     font-size: 250%;
 }
+
+.imgDev {
+    display: flex;
+    align-items: left;
+    width: 25%;
+    padding: 10px;
+}
+
+.imgDev:hover {
+    display: flex;
+    align-items: left;
+    width: 35%;
+    padding: 10px;
+}
+
+
 
 /* footer */
 footer {
@@ -97,7 +112,7 @@ footer {
 .footer-items {
     float: left;
     display: flex; 
-    padding: -15px;
+    /* padding: -15px; */
     justify-content: center;
     text-align: center;
     width: 100%;
