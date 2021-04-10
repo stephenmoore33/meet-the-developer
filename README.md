@@ -1,7 +1,7 @@
 # Meet the Developer
 
 
-## In this project I created a responsive website which includes an about me page, my portfolio, and a page to contact me. At the bottom of the page, I also added links to reach me via email, GitHub, and LinkedIn.
+In this project I created a responsive website which includes an about me page, my portfolio, and a page to contact me. At the bottom of the page, I also added links to reach me via email, GitHub, and LinkedIn.
 
 ## Table of Contents
 
@@ -16,4 +16,7 @@
 
 
 **Home Page**
-![Home Page] (assets/images/home_scrn.png)
+![Home Page](assets/css/images/home_scrn.png)
+
+**Website:**
+https://stephenmoore33.github.io/meet-the-developer/
