@@ -31,7 +31,9 @@ h1, h2, h3, h4, h5, h6, body {
 
 /* Header size */
 .headertext {
+    color: var(--main-menu-color);
     font-size: larger;
+
 }
 /* Header actions on hover */
 .headertext:hover {
@@ -108,6 +110,15 @@ footer {
     float: right;
     display: flex; 
 } 
+
+.footer-items {
+    float: left;
+    display: flex; 
+    /* padding: -15px; */
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
 
 .footer-items {
     float: left;
