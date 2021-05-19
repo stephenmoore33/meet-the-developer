@@ -13,6 +13,7 @@ In this project I created a responsive website which includes an about me page, 
  - [Coolors.co] (https://coolors.co/61a0af-96c9dc-f06c9b-f9b9b7-f5d491)
  - [W3 Schools] (https://www.w3schools.com/html/html5_semantic_elements.asp)
  - [Font Awesome] (https://www.w3schools.com/html/html5_semantic_elements.asp)
+ - [BootStrap](http://getbootstrap.com/)
 
 
 **Home Page**
