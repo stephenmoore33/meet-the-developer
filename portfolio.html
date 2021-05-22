@@ -1,58 +1,140 @@
-<!doctype html>
-
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8">
-
-    <title>Stephen's Coding Portfolio</title>
-    <meta name="description" content="Stephen's Coding Portfolio">
-    <meta name="author" content="SitePoint">
-    <link rel="stylesheet" href="assets/css/reset.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stephen's Coding Profile</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" 
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Francois+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="assets/css/reset.css"> -->
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-
-
-</head>
-
 <body>
-    <!-- Header section -->
+    
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg headermain">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Stephen's Coding Profile</a>
+          <div class="text-right">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="/index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" style="text-decoration: underline;" href="/portfolio.html">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/contact.html">Contact Me</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        </div>
+      </nav>
 
-        <section>
-            <header class="headermain">
-                <h1 class="headertext">Stephen's Coding Portfolio</h1>
-                <nav>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a style="text-decoration: underline;" href="portfolio.html">Portfolio</a></li>
-                        <li><a href="contact.html">Contact Me</a></li>
-                    </ul>
-                </nav>
+<!-- body -->
 
-            </header>
-        </section>
+<!-- <h5>Example heading <span class="badge badge-secondary">New</span></h5> -->
+<!-- New content tag -->
 
-        <!-- Portfolio -->
-        <div>
-            <div class="aboutBox">
-                <h2 class="devHead">Portfolio</h2>
+<div class="card-group">
+
+ <!-- movie snobs-->
+    <div class="card">
+      <img src="https://github.com/stephenmoore33/MovieSnobs-Project1/raw/main/assets/screenshot.png" class="card-img-top" alt="Movie Snobs Project">
+      <div class="card-body">
+        <h5 class="card-title">Movie Snobs <span class="badge badge-secondary">New</span></h5>
+        <p class="card-text">
+            In our class, we were assigned to complete a responsive project that includes: 2 APIs, a styling CDN (not Bootstrap), and use of collaborative tools within GitHub. In this project we delegated parts of the project to be completed by each of the members. One person was in charge of researching and deploying one of the two APIs. Another member worked on the HTML layout, and another worked on researching Bulma and styling the project. <br> 
+Our group decided to come up with a repo that would connect two databases in one, and act as a movie database search engine. On our index.html, you are greeted with a movie theater look and feel with a search bar to lookup your query. Once you search for a movie, with the use of JavaScript and jQuery, the page will dynamically display the first result of your search connecting the two APIs. When you click the reset button, the page will refresh, clearing out your search.</p>
+<a href="https://github.com/stephenmoore33/MovieSnobs-Project1f" class="navbar-brand nav-item" target="_blank">Project Repository</a>   
+<p class="card-text"><small class="text-muted">Date Completed: May 15, 2021</small></p>
+      </div>
+    </div>
+
+    <!-- <div class="card">
+        <img src="https://github.com/stephenmoore33/whats-the-weather" class="card-img-top" alt="Whats the Weather">
+        <div class="card-body">
+          <h5 class="card-title">What's the Weather</h5>
+          <p class="card-text">
+              This is a project that uses OpenWeatherAPI which allows the user to search a city that will display the single day and next 5 day weather forecast.</p>
+  <a href="https://github.com/stephenmoore33/whats-the-weather" class="navbar-brand nav-item" target="_blank">Project Repository</a>   
+  <p class="card-text"><small class="text-muted">Date Completed: May 01, 2021</small></p>
+        </div>
+      </div> -->
+
+      <div class="card">
+        <img src="https://github.com/stephenmoore33/daily-planner/raw/main/assets/images/scr.png" class="card-img-top" alt="IMG_ALT">
+        <div class="card-body">
+          <h5 class="card-title">Daily Planner</h5>
+          <p class="card-text">
+            This is a tool that is best used in the office to organize your daily schedule. Have a meeting at 10am? This will planner will you allow you to add your event to the daily planner, and store it in local storage to be accessed periodiocally throughout the day. Each event added to the planner will be color coded for the time of day.</p>
+  <a href="https://github.com/stephenmoore33/daily-planner" class="navbar-brand nav-item" target="_blank">Project Repository</a>   
+  <p class="card-text"><small class="text-muted">Date Completed: April 24, 2021</small></p>
+        </div>
+      </div>
+
+            <div class="card">
+        <img src="https://github.com/stephenmoore33/secure-it-with-this-password-generator/raw/main/assets/images/seven.png" class="card-img-top" alt="Secure it with this password generator">
+        <div class="card-body">
+          <h5 class="card-title">Secure it with This Password Generator</h5>
+          <p class="card-text">
+            This repository will give you a series of prompts. Requesting how many characters in length you'd prefer your password to be (8 to 128), if you need special characters, upper case letters, and lowercase letters. Then the generator will automatically load your password on screen to copy and paste.
+
+            This was a homework assignment that was assigned in my full stack web development bootcamp at Michigan State University.
+            
+            It started out overwhelming and unsure where to begin, but as I progressed it became easier and more enjoyable to complete. Feel free to view my other repos and connect with me on LinkedIn or Email me if you have any questions or feedback.</p>
+  <a href="https://github.com/stephenmoore33/secure-it-with-this-password-generator" class="navbar-brand nav-item" target="_blank">Project Repository</a>   
+  <p class="card-text"><small class="text-muted">Date Completed: April 17, 2021</small></p>
+        </div>
+      </div>
+
+      <!-- <div class="card">
+        <img src="IMAGE_URL_TO_PROJECT" class="card-img-top" alt="IMG_ALT">
+        <div class="card-body">
+          <h5 class="card-title">PROJECT NAME</h5>
+          <p class="card-text">
+              README_DETAILS</p>
+  <a href="REPO-LINK" class="navbar-brand nav-item" target="_blank">Project Repository</a>   
+  <p class="card-text"><small class="text-muted">Date Completed: MMMM DD, YYYY</small></p>
+        </div>
+      </div> -->
+
+  </div>
 
 
+<!-- footer -->
 
+<footer>
+<nav class="fixed-bottom">
+    <div class="container-fluid">
+
+        <!-- social icons -->
+    <a href="https://github.com/stephenmoore33" class="navbar-brand rounded-circle fab fa-github-square" target="_blank"></a>
+    <a href="https://www.linkedin.com/in/smoore320/" class="navbar-brand rounded-circle fab fa-linkedin" target="_blank"></a>
+    <a href="mailto:stephenmoore33@outlook.com" class="navbar-brand rounded-circle fas fa-envelope-square" target="_blank"></a>
+    <a href="/assets/images/resume.pdf" class="navbar-brand rounded-circle fas fa-file-pdf" target="_blank"></a>
+    <h3 class="copyright">Created by Stephen Moore</h3>
 </div>
 
-<!-- footer details -->
-<footer>
-
-    <h3 class="copyright">Created by Stephen Moore with HTML & CSS</h3>
-
-    <a href="https://github.com/stephenmoore33" class="fab fa-github-square" target="_blank"></a><span></span>
-    <a href="https://www.linkedin.com/in/smoore320/" class="fab fa-linkedin" target="_blank"></a><span></span>
-    <a href="mailto:stephenmoore33@outlook.com" class="fas fa-envelope-square" target="_blank"></a><span></span>
-
-
+  </nav>
 </footer>
 
 
+<script src="https://code.jquery.com/jquery-3.6.0.js" 
+integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
+integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+<script src="/assets/script/script.js"></script>
 </body>
 </html>
