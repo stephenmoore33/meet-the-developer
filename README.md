@@ -18,7 +18,9 @@ In this project I created a responsive website which includes an about me page, 
 
 **Home Page**
 ![Home Page](assets/images/home_new.png)
+**Portfolio Page**
 ![Portfolio Page](assets/images/portfolio.png)
+**Contact Page**
 ![Contact Page](assets/images/contact.png)
 
 **Website:**
